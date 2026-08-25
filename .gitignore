@@ -1,0 +1,26 @@
+# ---  Python install 
+Python/
+Codes/Python/
+**/site-packages/
+__pycache__/
+*.pyc
+*.pyo
+
+# --- Raw experimental data (download from Zenodo 10.5281/zenodo.8443) ---
+Data_Part_*/
+data/
+*.rar
+*.asc
+*.xls
+
+
+# --- Regenerated figure images (scripts reproduce them) ---
+*.png
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+.spyproject/
+.vscode/

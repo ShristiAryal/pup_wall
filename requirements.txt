@@ -1,0 +1,28 @@
+# All results were produced and confirmed on Windows under
+# Python 3.12.10.
+# Dependencies are used across the codebase: wall.py, interface_laws.py,
+# model_builder.py, blind_predict.py, benchmarks.py, optical_data.py,
+# recorded_protocol.py, model_optical_compare.py, stage2_recorded_harness.py,
+# mesh_sensitivity.py, the probe_*.py diagnostics, and the fig*.py scripts.
+
+# --- OpenSees (Windows build used here) ---
+openseespy==3.8.0.0
+openseespywin==3.8.0.0    
+# Windows-specific wheel; on macOS/Linux use only
+                        
+
+# Numerics / data
+numpy==2.5.1
+pandas==3.0.3
+scipy==1.18.0          
+# scipy.interpolate.griddata (model_optical_compare.py,
+# probe_AB_divergence.py family)
+
+# Plotting
+matplotlib==3.11.0
+
+# Excel for the recorded-protocol .xls file 
+xlrd==2.0.2               
+# pandas.read_excel() on legacy .xls                          
+# (recorded_protocol.py); required for .xls, not .xlsx
+# Standard-library modules (argparse, pathlib, re, os, sys)
