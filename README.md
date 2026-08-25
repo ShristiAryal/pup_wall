@@ -11,8 +11,7 @@ parameter adjustment, through three further walls (PUP3, PUP4, PUP5) using
 each wall's own recorded boundary conditions and loading history ("blind
 prediction"). PUP1 (double-fixed) and PUP6 (cantilever) are deferred: the
 current lever construction cannot represent their boundary conditions, and
-they are gated off in code rather than run through an invalid representation
-(see §3.3 and §8). All numerical results in this repository are
+they are gated off in code rather than run through an invalid representation. All numerical results in this repository are
 reproducible from the scripts and data described below.
 
 ---
